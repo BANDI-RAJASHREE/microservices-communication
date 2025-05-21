@@ -1,0 +1,105 @@
+!SESSION 2025-05-14 12:41:53.887 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\springboot-microservices
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-14 12:42:04.415
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-14 12:42:07.530
+!MESSAGE Logback config file: D:\springboot-microservices\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-14 12:42:08.464
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-14 12:42:08.464
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-14 12:42:09.212
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-14 12:42:09.212
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-14 12:42:22.443
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbandi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2025-05-14 12:42:22.893
+!MESSAGE C4E booting
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2025-05-14 12:42:23.055
+!MESSAGE [C4E] Starting CopilotAPI
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 12:42:30.175
+!MESSAGE [C4E] EdgeDataDir: D:\springboot-microservices\.metadata\.plugins\com.genuitec.copilot4eclipse.chat\edgedata
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 12:42:31.989
+!MESSAGE [C4E] Conversation persistence: D:/springboot-microservices/.metadata/.plugins/com.genuitec.copilot4eclipse/chatdata
+
+!ENTRY com.genuitec.copilot4eclipse.copilotapi 1 0 2025-05-14 12:42:32.178
+!MESSAGE [C4E] Copilot API proxy: native mode
+
+!ENTRY com.genuitec.copilot4eclipse.boot 1 0 2025-05-14 12:42:32.298
+!MESSAGE C4E API started
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 12:42:32.632
+!MESSAGE [C4E] Internal server started: true uri: http://localhost:49357/chat
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 12:42:37.094
+!MESSAGE [C4E] Workspace labels: 
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:05.029
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:22.420
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:22.476
+!MESSAGE Boot project ADDED: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:22.486
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:22.495
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-14 12:43:22.544
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbandi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=D:/springboot-microservices/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1747206802541
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbandi\eclipse\jee-2024-062\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:22.559
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-14 12:43:22.607
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 30576
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:27.641
+!MESSAGE Classpath changed for project: department-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:27.657
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-14 12:43:27.695
+!MESSAGE Boot project ADDED: employee-service
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 14:38:42.815
+!MESSAGE [C4E] Internal server stopped: Server@3b8b4947{STOPPED}[10.0.20,sto=0]
+
+!ENTRY com.genuitec.copilot4eclipse.chat 1 0 2025-05-14 14:38:42.827
+!MESSAGE [C4E] Internal server stopped: true
