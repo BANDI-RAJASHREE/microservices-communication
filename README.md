@@ -54,6 +54,6 @@ This project demonstrates inter-service communication in a microservices archite
 ### 4.Service Registry and Discovery using Spring Cloud Netflix Eureka Server
 - Spring Cloud Netflix Eureka provides a Service Registry where microservices can register themselves and discover other services without hardcoding IPs or ports.
 - It integrates with load balancers (Spring Cloud LoadBalancer) to distribute traffic among multiple instances of a service.
-![image](https://github.com/user-attachments/assets/2243a539-91ea-4619-9717-2d21017f68c0)
+![image](https://github.com/user-attachments/assets/3068fb72-9bfa-45ab-8289-de5d4fed7231)
 
 
