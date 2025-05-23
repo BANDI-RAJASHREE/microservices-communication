@@ -65,3 +65,13 @@ This project demonstrates inter-service communication in a microservices archite
 - Uses Spring Cloud Gateway to route requests to backend services.
 - Handles dynamic routing, load balancing (with Eureka), and request filtering.
 ![image](https://github.com/user-attachments/assets/ee9a346c-1fd9-4a18-82ee-b667371ce608)
+
+### 6.config-server
+- Whenever there is change in configuration file of 1 microservice we need to restart the microservice as well as the instances
+- This problem can be addressed by spring cloud config server
+- If we use spring cloud config server no need to restart again microservices and its instance
+- Externalise the configuration files of all microservices in centralised repo-git repository
+
+![image](https://github.com/user-attachments/assets/b40a266e-38db-4f42-b9d6-d3296c5a465e)
+
+
