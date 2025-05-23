@@ -14,5 +14,4 @@ public class ApiResponseDto {
 	private EmployeeDto employee;
 	private DepartmentDto department;
 
-
 }
